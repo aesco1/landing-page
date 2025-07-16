@@ -43,12 +43,20 @@ ul{
 }
 
 .intro{
-     background-color: #1F2937;
-     color: white;
-     display: flex;
-     justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin: 0;
-    padding: 20px;
+    padding: 100px 20px;
+    gap: 8px;
+}
+
+.intro-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .intro-header{
@@ -64,21 +72,26 @@ ul{
 
 .intro-image{
     background-color: gray;
-    width: 750px;
+    width: 700px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-right: 50px;
 }
 
 button {
     background-color: #3882F6;
     border-radius: 7px;
     color: #F9FAF8;
-    padding: 7px;
+    width: fit-content;
+    padding: 10px 20px;
 }
 
-.intro-button {
-    color: #F9FAF8;
+.intro-button{
+    border: none;
+    outline: none;
+    
+    padding: 10px 20px;
 }
+
