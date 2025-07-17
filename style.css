@@ -1,10 +1,10 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+
 }
 
 a {
@@ -25,7 +25,7 @@ ul{
     display: flex;
     gap: 16px;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     color: white;
     height: 50px;
     margin: 0;
@@ -38,7 +38,7 @@ ul{
 }
 
 .links{
-    font-size: 18px;
+    font-size: 15px;
     color: #e5e7eb;
 }
 
@@ -49,7 +49,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     margin: 0;
-    padding: 100px 20px;
+    padding: 50px 20px;
     gap: 8px;
 }
 
@@ -62,7 +62,7 @@ ul{
 .intro-header{
     font-size: 48px;
     color: #F9FAF8;
-    weight: 900;
+    font-weight: 900;
 }
 
 .intro-text{
@@ -72,7 +72,7 @@ ul{
 
 .intro-image{
     background-color: gray;
-    width: 700px;
+    width: 400px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -91,7 +91,114 @@ button {
 .intro-button{
     border: none;
     outline: none;
-    
     padding: 10px 20px;
 }
 
+.image-line-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 8px;
+}
+
+.image-line-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.image-and-desc-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    font-size: 15px;
+    color: #1f2937;
+}
+
+.image-box{
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.quote{
+    font-size: 20px;
+    font-weight: 10;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    align-self: flex-end;
+    color: #1f2937;
+    font-size: 20px;
+}
+
+.signup-section{
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #3882f6;
+    padding: 20px 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    
+}
+
+.header-and-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-header{
+    font-weight: 700;
+}
+
+.signup-section .signup-button button{
+    outline: none;
+    border: 2px solid white;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
