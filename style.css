@@ -35,11 +35,13 @@ ul{
 .header-logo{
     font-size: 24px;
     color: #F9faf8;
+    margin-left: 10px;
 }
 
 .links{
     font-size: 15px;
     color: #e5e7eb;
+    margin-right: 10px;
 }
 
 .intro{
